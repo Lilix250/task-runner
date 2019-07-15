@@ -1,0 +1,195 @@
+/*Global*/
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/*Navigation*/
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.navbar a.navbar-brand {
+  font-family: "Courgette", cursive;
+  color: #f7f757;
+  margin-left: 10%;
+  font-size: 40px;
+}
+
+.nav-item {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.nav-link {
+  color: white;
+  font-size: 20px;
+}
+
+.splash {
+  padding: 350px 0;
+  background-image: url("https://images.pexels.com/photos/298864/pexels-photo-298864.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  -ms-flex-align: center;
+      align-items: center;
+}
+
+.welcome {
+  font-family: "Courgette", cursive;
+  color: white;
+  font-size: 55px;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .welcome {
+    font-size: 36px;
+  }
+}
+
+.nice {
+  font-family: "Open Sans", sans-serif;
+  color: white;
+  font-size: 85px;
+  font-weight: 950;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .nice {
+    font-size: 44px;
+  }
+}
+
+.btn {
+  border-radius: 8px;
+  border-color: #f7f757;
+  background-color: #f7f757;
+  color: white;
+  font-size: 35px;
+  padding: 15px 55px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 768px) {
+  .btn {
+    font-size: 24px;
+  }
+}
+
+.serv {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 950;
+  font-size: 45px;
+}
+
+.description {
+  font-family: "Courgette", cursive;
+  color: #a1a199;
+  text-align: center;
+}
+
+.service-wrapper {
+  text-align: center;
+}
+
+.service-wrapper i {
+  color: #f7f757;
+  font-size: 55px;
+  border-radius: 50%;
+  border-color: #f7f757;
+  margin-top: 60px;
+  border: 2px solid;
+  padding: 15px;
+}
+
+.service-wrapper h5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  margin-top: 25px;
+}
+
+.service-wrapper p {
+  color: #a1a199;
+  font-weight: 600;
+}
+
+.services {
+  padding: 80px 0;
+}
+
+.portfolio {
+  text-align: center;
+  padding: 80px 0;
+}
+
+.portfolio .portfolio-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 1000;
+}
+
+.portfolio a.portfolio-subtitle {
+  font-family: "Courgette", cursive;
+  color: #a1a199;
+}
+
+.portfolio .description {
+  margin-bottom: 50px;
+}
+
+footer {
+  padding: 0 0 30px 0;
+}
+
+footer p {
+  margin-bottom: 0;
+}
+
+footer i {
+  font-size: 25px;
+  color: white;
+  border-radius: 50%;
+  background-color: black;
+  padding: 8px;
+  width: 47px;
+  text-align: center;
+  margin-right: 8px;
+}
+
+footer .footer-wrapper {
+  -ms-flex-align: center;
+      align-items: center;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+  footer .footer-wrapper {
+    width: 90%;
+  }
+}
+
+footer .footer-icons {
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 50px;
+}
+
+@media screen and (max-width: 576px) {
+  footer .footer-icons {
+    margin-left: 8px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
